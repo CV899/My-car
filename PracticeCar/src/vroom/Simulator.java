@@ -1,9 +1,13 @@
 package vroom;
 
+
+// Values are hard-coded in class Car.java
 public class Simulator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Car car = new Car();
+		car.run();
 
 	}
 
